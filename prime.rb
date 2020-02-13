@@ -1,5 +1,6 @@
 # Add  code here!
 require "pry"
 def prime?(i)
-i.include? {|n| i % n == 0}
+(2..n/2).none? do |x|
+  n % x == 0
 end
