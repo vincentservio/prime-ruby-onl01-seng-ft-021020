@@ -1,7 +1,7 @@
 # Add  code here!
 require "pry"
 def prime?(i)
-  if n <= 1 
+  if i <= 1 
     return false 
   elsif n <= 3 
   return true 
