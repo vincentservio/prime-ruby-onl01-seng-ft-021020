@@ -3,7 +3,7 @@ require "pry"
 def prime?(i)
   if i <= 1 
     return false 
-  elsif n <= 3 
+  elsif i <= 3 
   return true 
 else (2..i/2).none? do |x|
   i % x == 0
